@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add User</h1>
+        <form id="addUserForm" onsubmit="return submitUserForm(event)">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <label for="prenom">Tache:</label>
+            <input type="text" id="tache" name="tache" required>
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script_add_user.js"></script>
+</body>
+</html>
