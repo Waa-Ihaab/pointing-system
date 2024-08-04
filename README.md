@@ -3,7 +3,7 @@ This was my final project, which involved connecting an ESP8266 to a database us
 Components used:
 ESP8266
 Fingerprint sensor AS600
-3D printing a box to assemble the components"
+3D printing a box to assemble the components
 
 Here are the component connections:
 
